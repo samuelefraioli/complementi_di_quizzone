@@ -1,165 +1,165 @@
 {
-"1": {
-  "domanda": "Sistema afis raggiunge quanti matches per secondo?",
-  "risposte": [
+    "1": {
+        "domanda": "Sistema afis raggiunge quanti matches per secondo?",
+        "risposte": [
             "1 milione al secondo",
             "10 milioni",
-	    "100 milioni",
+            "100 milioni",
             "Nessuna delle precedenti"
         ],
-   "giusta": "100 milioni"
+        "giusta": "100 milioni"
     },
-"2": {
-   "domanda": "Com'è l'operatore nel filtro di gabor per filtraggio 	delle impronte",
-    "risposte": [
+    "2": {
+        "domanda": "Com'\u00e8 l'operatore nel filtro di gabor per filtraggio delle impronte",
+        "risposte": [
             "Coseno",
             "Esponenziale decrescente",
             "Coseno ed esponenziale decrescente",
-	    "Nessuna delle precedenti"
+            "Nessuna delle precedenti"
         ],
         "giusta": "Coseno ed esponenziale decrescente"
     },
-"3": {
-   "domanda": "Caratteristiche lenti asferiche",
-    "risposte": [
+    "3": {
+        "domanda": "Caratteristiche lenti asferiche",
+        "risposte": [
             "Meno costose",
             "Riducono aberrazione sferica",
             "Riducono aberrazione cromatica",
-	    "Tutte le precedenti"
+            "Tutte le precedenti"
         ],
         "giusta": "Tutte le precedenti"
     },
-"4": {
-   "domanda": "Speech e speaker recognition sono",
-    "risposte": [
+    "4": {
+        "domanda": "Speech e speaker recognition sono",
+        "risposte": [
             "Due cose uguali fatti con metodi biometrici simili",
             "Due cose diverse con metodi biometrici simili",
             "Due cose diverse fatte con metodi biometrici diversi"
         ],
         "giusta": "Due cose diverse fatte con metodi biometrici diversi"
     },
-"5": {
-   "domanda": "Cosa fa il max pooling",
-    "risposte": [
-            "Comprime le dimensionalità delle immagini tra uno strato",
-            "Riduce le dimensionalità delle immagini tra uno strato e lo 	    strato sottostante",
-	    "Riduce dimensionalità delle immagini tra uno strato e l’altro"
+    "5": {
+        "domanda": "Cosa fa il max pooling",
+        "risposte": [
+            "Comprime le dimensionalit\u00e0 delle immagini tra uno strato",
+            "Riduce le dimensionalit\u00e0 delle immagini tra uno strato e lo strato sottostante",
+            "Riduce dimensionalit\u00e0 delle immagini tra uno strato e l\u2019altro"
         ],
-        "giusta": "Riduce dimensionalità delle immagini tra uno strato e 	l’altro"
+        "giusta": "Riduce dimensionalit\u00e0 delle immagini tra uno strato e l\u2019altro"
     },
-"6": {
-   "domanda": "Per cosa potrebbe essere usato un sistema biometrico basato su reti neurali",
-    "risposte": [
-            "Soft biometrics per età",
-            "Qualità dell'iride",
-	    "Classificazione impronte",
-	    "Nessuna delle precedenti",
+    "6": {
+        "domanda": "Per cosa potrebbe essere usato un sistema biometrico basato su reti neurali",
+        "risposte": [
+            "Soft biometrics per et\u00e0",
+            "Qualit\u00e0 dell'iride",
+            "Classificazione impronte",
+            "Nessuna delle precedenti",
             "Tutte le precedenti"
         ],
         "giusta": "Tutte le precedenti"
     },
-"7": {
-   "domanda": "Lenti liquide applicazioni commerciali",
-    "risposte": [
+    "7": {
+        "domanda": "Lenti liquide applicazioni commerciali",
+        "risposte": [
             "Meno dolore",
-            "Impossibilità di vedere l'iride",
-	    "Protezione anti scansione retina",
-	    "Nessuna delle precedenti",
+            "Impossibilit\u00e0 di vedere l'iride",
+            "Protezione anti scansione retina",
+            "Nessuna delle precedenti",
             "Tutte le precedenti"
         ],
         "giusta": "Nessuna delle precedenti"
     },
-"8": {
-   "domanda": "Le lenti macro vanno bene per",
-    "risposte": [
+    "8": {
+        "domanda": "Le lenti macro vanno bene per",
+        "risposte": [
             "Impronta",
             "Palmo",
             "Entrambe"
         ],
         "giusta": "Entrambe"
     },
-"9": {
-   "domanda": "Sistema AFIS",
-    "risposte": [
+    "9": {
+        "domanda": "Sistema AFIS",
+        "risposte": [
             "Preventive",
             "Giudiziarie",
-	    "Entrambe",
-	    "Nessuna delle precedenti"
+            "Entrambe",
+            "Nessuna delle precedenti"
         ],
         "giusta": "Entrambe"
     },
-"10": {
-   "domanda": "Transfer learning",
-    "risposte": [
+    "10": {
+        "domanda": "Transfer learning",
+        "risposte": [
             "Rifai allenamento totale",
             "Rifai allenamento parziale",
-	    "Non serve rifare allenamento"
+            "Non serve rifare allenamento"
         ],
         "giusta": "Rifai allenamento parziale"
     },
-"11": {
-   "domanda": "Iride va bene per sistema di riconoscimento bancario",
-    "risposte": [
+    "11": {
+        "domanda": "Iride va bene per sistema di riconoscimento bancario",
+        "risposte": [
             "No, complicato",
             "No, costoso",
-	    "No, non si può fare matching veloce con grandi db",
+            "No, non si pu\u00f2 fare matching veloce con grandi db",
             "Nessuna delle precedenti"
         ],
         "giusta": "Nessuna delle precedenti"
     },
-"12": {
-   "domanda": "Riguardo la template selection basata su iride, può/possono 	essere utile/utili",
-    "risposte": [
-            "È sempre possibile usare riconoscimento automatico del 			template",
-            "Può essere usato un riconoscimento manuale del template"
+    "12": {
+        "domanda": "Riguardo la template selection basata su iride, pu\u00f2/possono essere utile/utili",
+        "risposte": [
+            "\u00c8 sempre possibile usare riconoscimento automatico del template",
+            "Pu\u00f2 essere usato un riconoscimento manuale del template"
         ],
-        "giusta": "Può essere usato un riconoscimento manuale del template"
+        "giusta": "Pu\u00f2 essere usato un riconoscimento manuale del template"
     },
-"13": {
-   "domanda": "Quando fai data collection a livello biometrico rispetto 	alla privacy utente",
-    "risposte": [
+    "13": {
+        "domanda": "Quando fai data collection a livello biometrico rispetto alla privacy utente",
+        "risposte": [
             "Incide sulla privacy",
             "Non incide direttamente"
         ],
         "giusta": "Incide sulla privacy"
     },
-"14": {
-   "domanda": "AFIS: come contrastare aliasing?",
-    "risposte": [
+    "14": {
+        "domanda": "AFIS: come contrastare aliasing?",
+        "risposte": [
             "Con preventiva registrazione dei cartellini decadattilari",
             "Con latent fingerprint",
             "Nessuna delle precedenti"
         ],
-        "giusta": "Con preventiva registrazione dei cartellini 	decadattilari"
+        "giusta": "Con preventiva registrazione dei cartellini decadattilari"
     },
-"15": {
-   "domanda": "HDR serve a migliorare la risoluzione",
-    "risposte": [
+    "15": {
+        "domanda": "HDR serve a migliorare la risoluzione",
+        "risposte": [
             "true",
             "false"
         ],
         "giusta": "false"
     },
-"16": {
-   "domanda": "HDR",
-    "risposte": [
+    "16": {
+        "domanda": "HDR",
+        "risposte": [
             "produce un range di luminanza simile a quello degli umani",
             "informazioni zone chiare/scure",
             "Tutte le precedenti"
         ],
         "giusta": "Tutte le precedenti"
     },
-"17": {
-   "domanda": "Con sistema di ML si può definire una DET",
-    "risposte": [
+    "17": {
+        "domanda": "Con sistema di ML si pu\u00f2 definire una DET",
+        "risposte": [
             "true",
             "false"
         ],
         "giusta": "true"
     },
-"18": {
-   "domanda": "Hai DET e ROC, puoi dire che:",
-    "risposte": [
+    "18": {
+        "domanda": "Hai DET e ROC, puoi dire che:",
+        "risposte": [
             "DET=1-ROC",
             "ROC=1-DET",
             "Entrambe",
@@ -167,82 +167,82 @@
         ],
         "giusta": "ROC=1-DET"
     },
-"19": {
-   "domanda": "Se hai il risultato dei matching impostori e genuini, stai facendo",
-    "risposte": [
+    "19": {
+        "domanda": "Se hai il risultato dei matching impostori e genuini, stai facendo",
+        "risposte": [
             "Inferenza statistica",
-            "Calcolo probabilità",
+            "Calcolo probabilit\u00e0",
             "Nessuna delle precedenti"
         ],
         "giusta": "Inferenza statistica"
     },
-"20": {
-   "domanda": "Se hai un'illuminazione improvvisa che difetto hai su CMS",
-    "risposte": [
+    "20": {
+        "domanda": "Se hai un'illuminazione improvvisa che difetto hai su CMS",
+        "risposte": [
             "spatial aliasing",
             "temporal aliasing",
             "jello effect"
         ],
         "giusta": "temporal aliasing"
     },
-"21": {
-   "domanda": "Nei sistemi di videosorveglianza HDR",
-    "risposte": [
+    "21": {
+        "domanda": "Nei sistemi di videosorveglianza HDR",
+        "risposte": [
             "almeno 10 db",
             "almeno 100 db",
             "almeno 200 db"
         ],
         "giusta": "almeno 100 db"
     },
-"22": {
-   "domanda": " Una camera con range dinamico 100 db può essere usata per",
-    "risposte": [
+    "22": {
+        "domanda": " Una camera con range dinamico 100 db pu\u00f2 essere usata per",
+        "risposte": [
             "Impronte",
             "Videosorveglianza",
             "Entrambe"
         ],
         "giusta": "Videosorveglianza"
     },
-"23": {
-   "domanda": " Zoom ottico 10X, sensore 10Mpx e camera 100x100x100 qual è il costo per farla",
-    "risposte": [
-            "Più di 100 euro",
-            "Più di 200 euro",
-            "Più di 500 euro"
+    "23": {
+        "domanda": " Zoom ottico 10X, sensore 10Mpx e camera 100x100x100 qual \u00e8 il costo per farla",
+        "risposte": [
+            "Pi\u00f9 di 100 euro",
+            "Pi\u00f9 di 200 euro",
+            "Pi\u00f9 di 500 euro"
         ],
-        "giusta": "Più di 200 euro"
+        "giusta": "Pi\u00f9 di 200 euro"
     },
-"24": {
-   "domanda": "I 10 bit per pixel rispetto agli 8 bit per pixel cosa permette",
-    "risposte": [
+    "24": {
+        "domanda": "I 10 bit per pixel rispetto agli 8 bit per pixel cosa permette",
+        "risposte": [
             "Distinguere rumore e filtrarlo meglio",
             "Niente",
-"Comprendere nello spettro più colori",
-"Ridurre il rumore in caso di movimento"
+            "Comprendere nello spettro pi\u00f9 colori",
+            "Ridurre il rumore in caso di movimento"
         ],
         "giusta": "Distinguere rumore e filtrarlo meglio"
     },
-"25": {
-   "domanda": "Per fare videosorveglianza biometrica utilizzi",
-    "risposte": [
-            "Almeno 100mm per prendere più dettagli",
-            "Focale normale o leggermente più lunga della videosorveglianza classica",
-"Teleobiettivo"
+    "25": {
+        "domanda": "Per fare videosorveglianza biometrica utilizzi",
+        "risposte": [
+            "Almeno 100mm per prendere pi\u00f9 dettagli",
+            "Focale normale o leggermente pi\u00f9 lunga della videosorveglianza classica",
+            "Teleobiettivo"
         ],
-        "giusta": "Focale normale o leggermente più lunga della videosorveglianza classica"
+        "giusta": "Focale normale o leggermente pi\u00f9 lunga della videosorveglianza classica"
     },
-"26": {
-   "domanda": "Se chiudi il diaframma cosa succede",
-    "risposte": [
+    "26": {
+        "domanda": "Se chiudi il diaframma cosa succede",
+        "risposte": [
             "Campo di fuoco migliore ma entra meno luce",
             "Campo di fuoco peggiore",
-         "Entra più luce"
+            "Entra pi\u00f9 luce"
         ],
         "giusta": "Campo di fuoco migliore ma entra meno luce"
     },
-"27": {
-   "domanda": "Con sensore 8 bit per pixel, 3 canali, quanti colori rappresenti",
-    "risposte": [
+    "27": {
+        "domanda": "Con sensore 8 bit per pixel, 3 canali, quanti colori rappresenti",
+        "risposte": [
             "Solo 16,7 milioni",
             "Solo 2 milioni",
             "Solo 256",
@@ -250,59 +250,58 @@
         ],
         "giusta": "Solo 16,7 milioni"
     },
-"28": {
-   "domanda": "Se chiudo diaframma cosa succede al palmo",
-    "risposte": [
-            "Aumento campo di profondità e devo aumentare tempo di esposizione",
-"Aumento il guadagno della sensibilità",
-"Entrambe le precedenti",
-"Nessuna delle precedenti"
+    "28": {
+        "domanda": "Se chiudo diaframma cosa succede al palmo",
+        "risposte": [
+            "Aumento campo di profondit\u00e0 e devo aumentare tempo di esposizione",
+            "Aumento il guadagno della sensibilit\u00e0",
+            "Entrambe le precedenti",
+            "Nessuna delle precedenti"
         ],
         "giusta": "Entrambe le precedenti"
     },
-"29": {
-   "domanda": "Reti neurali deep e speech recognition stanno diventando efficaci",
-    "risposte": [
+    "29": {
+        "domanda": "Reti neurali deep e speech recognition stanno diventando efficaci",
+        "risposte": [
             "vero",
             "falso"
         ],
         "giusta": "vero"
     },
-"30": {
-   "domanda": "Quando guardi impronte digitali e arrivi a un punto in cui un pixel è 0 e gli altri 1 (0=nero,1=bianco)",
-    "risposte": [
+    "30": {
+        "domanda": "Quando guardi impronte digitali e arrivi a un punto in cui un pixel \u00e8 0 e gli altri 1 (0=nero,1=bianco)",
+        "risposte": [
             "Biforcazione",
             "Fine riga"
         ],
         "giusta": "Fine riga"
     },
-"31": {
-   "domanda": "A che livello agisce fingercode",
-    "risposte": [
+    "31": {
+        "domanda": "A che livello agisce fingercode",
+        "risposte": [
             "Livello 1",
             "Livello 2"
         ],
         "giusta": "Livello 1"
     },
-"32": {
-   "domanda": "Grey scale extraction",
-    "risposte": [
+    "32": {
+        "domanda": "Grey scale extraction",
+        "risposte": [
             "Immagini binarie",
             "Immagini bianco e nero",
             "Altro"
         ],
         "giusta": "Immagini bianco e nero"
     },
-"33": {
-   "domanda": "Identificazione match on card rimane tutto nella card e non esce niente fuori (è sbagliata la domanda, è 
-autenticazione!)",
-    "risposte": [
+    "33": {
+        "domanda": "Identificazione match on card rimane tutto nella card e non esce niente fuori (\u00e8 sbagliata la domanda, \u00e8 autenticazione!)",
+        "risposte": [
             "Sensore che si piega",
             "Sensore diverso",
             "Tutte le precedenti"
         ],
         "giusta": "Tutte le precedenti"
     },
-    "totali": 33
+    "totali": 33,
     "fatte": []
 }

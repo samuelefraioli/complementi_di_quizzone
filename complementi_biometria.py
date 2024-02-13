@@ -1,4 +1,4 @@
-﻿from flask import Flask, render_template, request
+﻿from flask import Flask, render_template, request, redirect
 import mysql.connector
 import random
 import json
@@ -33,7 +33,6 @@ def index():
 def submit():
     with open('domande.json','r') as file:
         domande = json.load(file)
-    # Ricevi le risposte selezionate dall'utente
     risposta = request.form.get('risposta')
     domanda = request.form.get('domanda')
     if domande[domanda]['giusta']==risposta:
@@ -46,12 +45,12 @@ def submit():
 
 @app.route('/reset', methods=['GET'])
 def reset():
-    with open('domande.json','r') as file:
+    with open('domande.json', 'r') as file:
         domande = json.load(file)
-        domande['fatte']=[]
-        with open('domande.json','w') as newfile:
-            json.dump(domande, newfile, indent=4)
-            index()
+        domande['fatte'] = []
+    with open('domande.json', 'w') as newfile:
+        json.dump(domande, newfile, indent=4)
+    return redirect('/')
 
 if __name__ == '__main__':
     app.run(port=999, debug=True)
