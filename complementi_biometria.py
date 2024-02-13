@@ -1,5 +1,4 @@
-﻿from flask import Flask, render_template, request, redirect
-import mysql.connector
+from flask import Flask, render_template, request, redirect
 import random
 import json
 
@@ -20,7 +19,7 @@ def index():
 
     # Genera un numero casuale e verifica se esiste nella tabella 'fatte'
     numero_domanda = random.randint(1, domande['totali'])
- 
+
     while True:
         if numero_domanda in domande['fatte']:
             numero_domanda = random.randint(1, domande['totali'])
