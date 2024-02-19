@@ -247,8 +247,8 @@
         "risposte": [
             "Aumento campo di profondit\u00e0 e devo aumentare tempo di esposizione",
             "Aumento il guadagno della sensibilit\u00e0",
-            "nessuna delle precedenti",
-            "Entrambe le precedenti"
+            "Entrambe le precedenti",
+            "nessuna delle precedenti"
         ],
         "giusta": "Entrambe le precedenti"
     },
@@ -489,7 +489,7 @@
             "Falso",
             "Falso anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
         ],
-        "giusta": "Falso"
+        "giusta": "Falso anche se recenti innovazioni in termini di velocit\u00e0 di trasmissione interna e sensibilit\u00e0 dei sensori stanno riducendo le principali differenze"
     },
     "58": {
         "domanda": "Nei sensori CMOS il problema dell'aliasing",
@@ -627,8 +627,8 @@
             "skew",
             "spatial aliasing",
             "temporal aliasing",
-            "nessuno dei precedenti",
-            "tutti i precedenti"
+            "tutti i precedenti",
+            "nessuno dei precedenti"
         ],
         "giusta": "tutti i precedenti"
     },
@@ -648,8 +648,8 @@
             "Diminuisce la luce entrante sul sensore",
             "Aumenta il campo di fuoco",
             "Riduce la deformazione sferica dell'immagine",
-            "Nessuna delle precedenti",
-            "Tutte le precedenti"
+            "Tutte le precedenti",
+            "Nessuna delle precedenti"
         ],
         "giusta": "Tutte le precedenti"
     },
@@ -1162,7 +1162,7 @@
             "Tutte le precedenti",
             "Nessuna delle precedenti."
         ],
-        "giusta": "Nessuna delle precedenti."
+        "giusta": "Falso"
     },
     "126": {
         "domanda": "Nell'ambito dei modelli di deeplearning usati in biometria, quali dei seguenti modulo possono annullare il gradiente nella funzione di ottimizzazione dei pesi e quindi produrre una semplificazione dell'apprendimento?",
@@ -1507,6 +1507,1322 @@
         ],
         "giusta": "Esempi di tecniche applicate di challenge-response"
     },
-    "totali": 159,
+    "160": {
+        "domanda": "Cosa sono i bins?",
+        "risposte": [
+            "Sono delle partizioni in cui viene diviso il database."
+        ],
+        "giusta": "Sono delle partizioni in cui viene diviso il database."
+    },
+    "161": {
+        "domanda": "Un sistema basato su 2 impronte con arch e loop, quanti bins avremo?",
+        "risposte": [
+            "4 che sono: BIN1: individui con DX arch SX loop, BIN2: individui con DX arch SX loop, BIN3: individui con DX loop SX arch, BIN4: individui con DX loop SX loop"
+        ],
+        "giusta": "4 che sono: BIN1: individui con DX arch SX loop, BIN2: individui con DX arch SX loop, BIN3: individui con DX loop SX arch, BIN4: individui con DX loop SX loop"
+    },
+    "162": {
+        "domanda": "Cosa \u00e8 il binning error?",
+        "risposte": [
+            "Quando vengono cercati i tratti biometrici nel bin sbagliato, e cos\u00ec non vengono trovati."
+        ],
+        "giusta": "Quando vengono cercati i tratti biometrici nel bin sbagliato, e cos\u00ec non vengono trovati."
+    },
+    "163": {
+        "domanda": "Avere N bin Porta ad avere un Pentration rate di N/100?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "164": {
+        "domanda": "Come digitalizza le foto l\u2019FBI?",
+        "risposte": [
+            "Con 500 DPI per 8 bit."
+        ],
+        "giusta": "Sono delle partizioni in cui viene diviso il database."
+    },
+    "165": {
+        "domanda": "A livello I delle impronte digitale cosa si pu\u00f2 osservare?",
+        "risposte": [
+            "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine."
+        ],
+        "giusta": "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine."
+    },
+    "166": {
+        "domanda": "A livello II delle impronte digitale cosa si pu\u00f2 osservare?",
+        "risposte": [
+            "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue."
+        ],
+        "giusta": "Minutiae, biforcazioni,ridge,etc , fino a 150 mniatue."
+    },
+    "167": {
+        "domanda": "A livello III delle impronte digitale cosa si pu\u00f2 osservare?",
+        "risposte": [
+            "Intra-creste (pori sudorazione) e inter-creste(incipient ridges)"
+        ],
+        "giusta": "Intra-creste (pori sudorazione) e inter-creste(incipient ridges)"
+    },
+    "168": {
+        "domanda": "Quanti DPI occorrono per vedere le caratteristiche del livello III?",
+        "risposte": [
+            "1000 DPI."
+        ],
+        "giusta": "1000 DPI."
+    },
+    "169": {
+        "domanda": "Quali sono i passaggi per l\u2019estrazione delle feature?",
+        "risposte": [
+            "Filtraggio iniziale, manipolazione delle immagini, estrazione delle feature, codifica."
+        ],
+        "giusta": "Filtraggio iniziale, manipolazione delle immagini, estrazione delle feature, codifica."
+    },
+    "170": {
+        "domanda": "Cosa \u00e8 il ridge count?",
+        "risposte": [
+            "\u00c8 una misura dei ridge che attraversano una linea immaginaria passante tra due miniatue."
+        ],
+        "giusta": "\u00c8 una misura dei ridge che attraversano una linea immaginaria passante tra due miniatue."
+    },
+    "171": {
+        "domanda": "Di quale livello \u00e8 considerata la ridge counting?",
+        "risposte": [
+            "Livello I"
+        ],
+        "giusta": "Livello I"
+    },
+    "172": {
+        "domanda": "Cosa \u00e8 la ridge frequency?",
+        "risposte": [
+            "L\u2019inverso della distanza media tra 2 picchi consecutivi"
+        ],
+        "giusta": "L\u2019inverso della distanza media tra 2 picchi consecutivi"
+    },
+    "173": {
+        "domanda": "Quanti DPI servono per acquisire le impronte digitali con AFIS",
+        "risposte": [
+            "500 DPI"
+        ],
+        "giusta": "500 DPI"
+    },
+    "174": {
+        "domanda": "Quale \u00e8 la migliore luce per acquisire l\u2019iride?",
+        "risposte": [
+            "Luce IR"
+        ],
+        "giusta": "Luce IR"
+    },
+    "175": {
+        "domanda": "Per catturare i dettagli dell\u2019iride, con quanti pixel il sistema deve poterlo acquisire?",
+        "risposte": [
+            "Almeno 70 pixel"
+        ],
+        "giusta": "Almeno 70 pixel"
+    },
+    "176": {
+        "domanda": "Quali sensori si usano per acquisire l\u2019iride?",
+        "risposte": [
+            "CCD monocromatici"
+        ],
+        "giusta": "CCD monocromatici"
+    },
+    "177": {
+        "domanda": "Quale \u00e8 la banda di illuminazione migliore per l\u2019iride?",
+        "risposte": [
+            "700- 900 nm"
+        ],
+        "giusta": "700- 900 nm"
+    },
+    "178": {
+        "domanda": "Che tipo di telecamere si usano per l\u2019iride?",
+        "risposte": [
+            "Telecamere con ottiche variabili"
+        ],
+        "giusta": "Telecamere con ottiche variabili"
+    },
+    "179": {
+        "domanda": "Quanti colori pu\u00f2 riconoscere l\u2019occhio umano?",
+        "risposte": [
+            "10 milioni di colori"
+        ],
+        "giusta": "10 milioni di colori"
+    },
+    "180": {
+        "domanda": "Gli algoritmi di enhancement (aumento), esaltano le differenze di rumore?",
+        "risposte": [
+            "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)"
+        ],
+        "giusta": "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)"
+    },
+    "181": {
+        "domanda": "Con 8 bit/ grigio quali tratti posso catturare?",
+        "risposte": [
+            "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una minore risoluzione"
+        ],
+        "giusta": "Sono delle partizioni in cui viene diviso il database."
+    },
+    "182": {
+        "domanda": "Quanti bit occorrrono per avere una vein pattern?",
+        "risposte": [
+            "10 bit"
+        ],
+        "giusta": "10 bit"
+    },
+    "183": {
+        "domanda": "Il sensore CCD, Charge-Coupled Device, (dispositivo di carica accoppiata), che tipo di funzionamento hanno?",
+        "risposte": [
+            "Ha funzionamento simile ad un fotodiodo. La carica elettrica generata sul sensore dai fotoni viene trasferita alla circuiteria tramite pochi nodi di uscita in analogico"
+        ],
+        "giusta": "Ha funzionamento simile ad un fotodiodo. La carica elettrica generata sul sensore dai fotoni viene trasferita alla circuiteria tramite pochi nodi di uscita in analogico"
+    },
+    "184": {
+        "domanda": "Come funziona un sensore CMOS, Complementary Metal-Oxide Semiconductor (Semiconduttore complementare ossido di metallo)?",
+        "risposte": [
+            "Ogni singolo fotodiodo \u00e8 accoppiato ad un convertitore, riduttore di rumore, e circuiti di digitalizzazione. Il sistema del CMOS permette di gestire meglio Il singolo pixel e produce un rumore pi\u00f9 localizzato (filtrabile meglio). Il trend dei CMOS \u00e8 in costante ascesa. A causa dello scarso fattore di riempimento di CMOS, la fotosensibilit\u00e0 dei sensori CMOS \u00e8 scarsa in condizioni di scarsa illuminazione."
+        ],
+        "giusta": "Ogni singolo fotodiodo \u00e8 accoppiato ad un convertitore, riduttore di rumore, e circuiti di digitalizzazione. Il sistema del CMOS permette di gestire meglio Il singolo pixel e produce un rumore pi\u00f9 localizzato (filtrabile meglio). Il trend dei CMOS \u00e8 in costante ascesa. A causa dello scarso fattore di riempimento di CMOS, la fotosensibilit\u00e0 dei sensori CMOS \u00e8 scarsa in condizioni di scarsa illuminazione."
+    },
+    "185": {
+        "domanda": "Cosa servono le microlenti sopra il fotodettetore?",
+        "risposte": [
+            "Per aumentare la luce in ingresso."
+        ],
+        "giusta": "Per aumentare la luce in ingresso."
+    },
+    "186": {
+        "domanda": "In quale sensore avviene il rolling shutter?",
+        "risposte": [
+            "CMOS"
+        ],
+        "giusta": "CMOS"
+    },
+    "187": {
+        "domanda": "In cosa consiste il rolling shutter?",
+        "risposte": [
+            "La esposizione avviene non simultaneamente ma riga dopo riga"
+        ],
+        "giusta": "La esposizione avviene non simultaneamente ma riga dopo riga"
+    },
+    "188": {
+        "domanda": "In cosa consiste il Wobble (jello effect)?",
+        "risposte": [
+            "Si muove il sistema, quindi di conseguenza l\u2019immagine, dando senzazione di movimento simile alla gelatina."
+        ],
+        "giusta": "Si muove il sistema, quindi di conseguenza l\u2019immagine, dando senzazione di movimento simile alla gelatina."
+    },
+    "189": {
+        "domanda": "Quando appare il il Wobble (jello effect)?",
+        "risposte": [
+            "Appare quando la camera vibra (temporal aliasing)"
+        ],
+        "giusta": "Appare quando la camera vibra (temporal aliasing)"
+    },
+    "190": {
+        "domanda": "Cosa \u00e8 la skew?",
+        "risposte": [
+            "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro.."
+        ],
+        "giusta": "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro."
+    },
+    "191": {
+        "domanda": "Cosa \u00e8 lo spatial aliasing?",
+        "risposte": [
+            "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell'oggetto \u00e8 troppo rapido"
+        ],
+        "giusta": "\u201cAlias spaziale\u201d, I pixel adiacenti verticalmente vengono campionati in violazione del teorema di campionamento, quando il movimento della videocamera o dell'oggetto \u00e8 troppo rapido"
+    },
+    "192": {
+        "domanda": "Cosa \u00e8 il temporal aliasing?",
+        "risposte": [
+            "(inclusa l'esposizione parziale): se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l'illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
+        ],
+        "giusta": "(inclusa l'esposizione parziale): se il flash della fotocamera si attiva solo per una parte del tempo di esposizione, l'illuminazione del flash potrebbe essere presente solo per alcune file di pixel in una determinata cornice \u2022 illuminazione fluorescente, \u2022 effetti strobo, \u2022 fulmini, \u2022 movimento molto veloce / scoppi di luce"
+    },
+    "193": {
+        "domanda": "L\u2019illuminazione fluorescente causa problemi di temporal aliasing?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "194": {
+        "domanda": "I sensori ottici standard film frame che misura hanno?",
+        "risposte": [
+            "35 mm"
+        ],
+        "giusta": "35 mm"
+    },
+    "195": {
+        "domanda": "Nel involucro del sensore CMOS, a cosa serve l\u2019elemento piezoeletrico?",
+        "risposte": [
+            "Ad eseguire la pulizia."
+        ],
+        "giusta": "Ad eseguire la pulizia."
+    },
+    "196": {
+        "domanda": "A cosa serve un low pass filtro, chiamato anche anti-aliasing o \u201cblur\u201d(sfocatura)?",
+        "risposte": [
+            "Serve per eliminare il problema della sfocatura da moir\u00e9 ci\u00f2 che effettivamente raggiunge il sensore."
+        ],
+        "giusta": "Serve per eliminare il problema della sfocatura da moir\u00e9 ci\u00f2 che effettivamente raggiunge il sensore."
+    },
+    "197": {
+        "domanda": "Cosa \u00e8 il Moire pattern?",
+        "risposte": [
+            "\u00c8 una sfocatura che si verifica quando una scena o un oggetto che viene fotografato contiene dettagli ripetitivi (come linee, punti, ecc.) Che superano la risoluzione del sensore"
+        ],
+        "giusta": "\u00c8 una sfocatura che si verifica quando una scena o un oggetto che viene fotografato contiene dettagli ripetitivi (come linee, punti, ecc.) Che superano la risoluzione del sensore"
+    },
+    "198": {
+        "domanda": "A cosa servono i filtri ottici?",
+        "risposte": [
+            "trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d'onda (colore), una polarizzazione, ne attenua l'intensit\u00e0"
+        ],
+        "giusta": "trasmettere la luce con particolari propriet\u00e0 come una o pi\u00f9 lunghezza d'onda (colore), una polarizzazione, ne attenua l'intensit\u00e0"
+    },
+    "199": {
+        "domanda": "Attraverso il filtro polarizzatore in una immagine \u00e8 possibile vedere il riflesso?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "200": {
+        "domanda": "A cosa serve l\u2019uso del filtro polarizzatore in biometria?",
+        "risposte": [
+            "L\u2019uso del polarizzatore nelle impronte senza contatto (latenti) permette una migliore vista dei ridge."
+        ],
+        "giusta": "L\u2019uso del polarizzatore nelle impronte senza contatto (latenti) permette una migliore vista dei ridge."
+    },
+    "201": {
+        "domanda": "A cosa serve un filtro multi banda?",
+        "risposte": [
+            "Con un solo filtro possiamo permettere il passaggio di diverse bande che ci interessano"
+        ],
+        "giusta": "Con un solo filtro possiamo permettere il passaggio di diverse bande che ci interessano"
+    },
+    "202": {
+        "domanda": "I canali RGB possono essere usati come filtri?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "203": {
+        "domanda": "Rimuovendo il filtro no IR si ottiene un sensore utile in vicino infrarosso?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "204": {
+        "domanda": "Il filtro cut-off scambiatore IR con attacco obiettivo integrato consente il vero funzionamento diurno / notturno (TDN) con i chipset DPS Pixim?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "205": {
+        "domanda": "Sensore di imaging multispettrale ha funzionalit\u00e0 di sicurezza avanzate?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "206": {
+        "domanda": "Sensore di imaging multispettrale fino a che profondit\u00e0 pu\u00f2 scansionare?",
+        "risposte": [
+            "4 mm"
+        ],
+        "giusta": "4 mm"
+    },
+    "207": {
+        "domanda": "A cosa servono le lenti",
+        "risposte": [
+            "A mandare sul sensore molta pi\u00f9 luce"
+        ],
+        "giusta": "A mandare sul sensore molta pi\u00f9 luce"
+    },
+    "208": {
+        "domanda": "Cosa \u00e8 la profondit\u00e0 di campo?",
+        "risposte": [
+            "Intervallo di distanze dell'oggetto su cui l'immagine \u00e8 sufficientemente ben messa a fuoco, ovvero intervallo per cui il cerchio di sfocatura \u00e8 inferiore alla risoluzione del sensore di imaging."
+        ],
+        "giusta": "Intervallo di distanze dell'oggetto su cui l'immagine \u00e8 sufficientemente ben messa a fuoco, ovvero intervallo per cui il cerchio di sfocatura \u00e8 inferiore alla risoluzione del sensore di imaging."
+    },
+    "209": {
+        "domanda": "Quando una immagine \u00e8 sufficientemente ben messa a fuoco?",
+        "risposte": [
+            "Quando ha una sufficiente profondit\u00e0 di campo"
+        ],
+        "giusta": "Quando ha una sufficiente profondit\u00e0 di campo"
+    },
+    "210": {
+        "domanda": "Quali sono i problemi con le lenti?",
+        "risposte": [
+            "Vignetting (vignettatura), abberazzione cromatica, aberrazione sferica."
+        ],
+        "giusta": "Vignetting (vignettatura), abberazzione cromatica, aberrazione sferica."
+    },
+    "211": {
+        "domanda": "Come si pu\u00f2 rimediare all\u2019aberrazione sferica?",
+        "risposte": [
+            "Chiudere diaframma, inserire lenti correttive, inserire lenti asferiche."
+        ],
+        "giusta": "Chiudere diaframma, inserire lenti correttive, inserire lenti asferiche."
+    },
+    "212": {
+        "domanda": "Come sono composte le lenti liquide?",
+        "risposte": [
+            "Sono composte da Due fluidi isodensi contenuti al suo interno che ne modificano la curvatura a seconda della tensione elettrica che li attraversa, riuscendo cos\u00ec a risolvere il problema della messa a fuoco in ottica piccole"
+        ],
+        "giusta": "Sono composte da Due fluidi isodensi contenuti al suo interno che ne modificano la curvatura a seconda della tensione elettrica che li attraversa, riuscendo cos\u00ec a risolvere il problema della messa a fuoco in ottica piccole"
+    },
+    "213": {
+        "domanda": "Con le lenti liquide a che velocit\u00e0 si pu\u00f2 regolare diaframma e magnificazione?",
+        "risposte": [
+            "30 FPS"
+        ],
+        "giusta": "30 FPS"
+    },
+    "214": {
+        "domanda": "Quale \u00e8 il campo di fuoco delle lenti liquide?",
+        "risposte": [
+            "5 cm \u2013 infinito"
+        ],
+        "giusta": "5 cm \u2013 infinito"
+    },
+    "215": {
+        "domanda": "Nel magnificazione a 2 lenti, come avviene la procedura?",
+        "risposte": [
+            "l'immagine formata dal primo obiettivo \u00e8 l'oggetto per il secondo obiettivo."
+        ],
+        "giusta": "l'immagine formata dal primo obiettivo \u00e8 l'oggetto per il secondo obiettivo."
+    },
+    "216": {
+        "domanda": "Cosa \u00e8 lo zoom?",
+        "risposte": [
+            "Una magnificazione Variabile"
+        ],
+        "giusta": "Una magnificazione Variabile"
+    },
+    "217": {
+        "domanda": "Lo zoom \u00e8 utile in tutte le applicazioni di sicurezza?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "218": {
+        "domanda": "Nello zoom ottico la lunghezza focale pu\u00f2 variare?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "219": {
+        "domanda": "Lo zoom ottico ingrandisce?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "220": {
+        "domanda": "Lo Zoom digitale ingrandisce",
+        "risposte": [
+            "Falso, scala la immagine senza aggiungere informazione"
+        ],
+        "giusta": "Falso, scala la immagine senza aggiungere informazione"
+    },
+    "221": {
+        "domanda": "Quali sono i parametri per leggere lo zoom?",
+        "risposte": [
+            "Escursione focale, Luminosit\u00e0 dell\u2019obbiettivo, fattore di ingrandimento."
+        ],
+        "giusta": "Sono delle partizioni in cui viene diviso il database."
+    },
+    "222": {
+        "domanda": "Quali sono i parametri di misurazione dell\u2019escursione focale nello zoom?",
+        "risposte": [
+            "10- 80 mm 72) Quali sono"
+        ],
+        "giusta": "10- 80 mm 72) Quali sono"
+    },
+    "223": {
+        "domanda": "Quali sono i parametri di luminosit\u00e0 dell\u2019obbiettivo nello zoom?",
+        "risposte": [
+            "Varia da 1,3 dalla focale di 10 mm a 1,8 di quella da 80 mm"
+        ],
+        "giusta": "Varia da 1,3 dalla focale di 10 mm a 1,8 di quella da 80 mm"
+    },
+    "224": {
+        "domanda": "Quali sono i parametri di ingrandimento nello zoom?",
+        "risposte": [
+            "7X, quindi 7 x 10 mm = 70 mm"
+        ],
+        "giusta": "7X, quindi 7 x 10 mm = 70 mm"
+    },
+    "225": {
+        "domanda": "Fino a quanto possono arrivare le focali di arrivo?",
+        "risposte": [
+            "660 mm"
+        ],
+        "giusta": "660 mm"
+    },
+    "226": {
+        "domanda": "Le lenti liquide possono essere utilizzate nella video sorveglianza?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "227": {
+        "domanda": "Le lenti liquide possono essere utilizzate nella biometria senza contatto?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "228": {
+        "domanda": "Un\u2019obbiettivo per una fotocamera pu\u00f2 contenere fino a 15 elementi?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "229": {
+        "domanda": "Nell\u2019impronta contactless (senza contatto), cosa \u00e8 possibile osservare?",
+        "risposte": [
+            "Core visibile, Direzione ridge, Fine riga e biforcazioni visibili"
+        ],
+        "giusta": "Core visibile, Direzione ridge, Fine riga e biforcazioni visibili"
+    },
+    "230": {
+        "domanda": "L\u2019autofocus aggiunge informazione all\u2019immagine?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "231": {
+        "domanda": "Nel galaxy S9 della samsung, Una lente della fotocamera consente allo scanner dell'iride di riconoscere facilmente gli utenti con gli occhiali o quando si trovano in un ambiente troppo buio o troppo scuro?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "232": {
+        "domanda": "L\u2019obbiettivo di un drone pu\u00f2 avere lenti asferiche?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "233": {
+        "domanda": "La quantit\u00e0 di luce catturata da un obiettivo:",
+        "risposte": [
+            "\u00e8 proporzionale all'area dell'apertura."
+        ],
+        "giusta": "\u00e8 proporzionale all'area dell'apertura."
+    },
+    "234": {
+        "domanda": "Se due fotocamere di dimensioni e lunghezze focali diverse hanno lo stesso angolo di visione e la stessa area di apertura, raccolgono la stessa quantit\u00e0 di luce dalla scena",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "235": {
+        "domanda": "L\u2019obbiettivo a fuoco di una distanza di 1, 5, 20 metri, l\u2019apertura del diaframma e la lunghezza focale cambia?",
+        "risposte": [
+            "Falso, il diaframma sar\u00e0 sempre f/8 e lunghezza focale 70"
+        ],
+        "giusta": "Falso, il diaframma sar\u00e0 sempre f/8 e lunghezza focale 70"
+    },
+    "236": {
+        "domanda": "In fotografia, Cosa \u00e8 uno stop?",
+        "risposte": [
+            "Uno stop \u00e8 il raddoppio o la met\u00e0 della quantit\u00e0 di luce lasciata entrare quando si scatta una foto"
+        ],
+        "giusta": "Uno stop \u00e8 il raddoppio o la met\u00e0 della quantit\u00e0 di luce lasciata entrare quando si scatta una foto"
+    },
+    "237": {
+        "domanda": "Gli stops dipendono da:",
+        "risposte": [
+            "Velocit\u00e0 dell'otturatore, Velocit\u00e0 ISO, Diametro dell'apertura"
+        ],
+        "giusta": "Velocit\u00e0 dell'otturatore, Velocit\u00e0 ISO, Diametro dell'apertura"
+    },
+    "238": {
+        "domanda": "Quale \u00e8 l\u2019effetto del teleobbiettivo?",
+        "risposte": [
+            "Pi\u00f9 stringi sul tuo soggetto, minore profondit\u00e0 di campo avrai in foto"
+        ],
+        "giusta": "Pi\u00f9 stringi sul tuo soggetto, minore profondit\u00e0 di campo avrai in foto"
+    },
+    "239": {
+        "domanda": "\u00c8 possibile compensare la distanza con focale ma senza deformazioni?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "240": {
+        "domanda": "Per la sorveglienza quale focale serve?",
+        "risposte": [
+            "14 mm \u2013 20 mm"
+        ],
+        "giusta": "14 mm \u2013 20 mm"
+    },
+    "241": {
+        "domanda": "Per la sorveglienza con volto quale focale serve?",
+        "risposte": [
+            "24 mm \u2013 35 mm"
+        ],
+        "giusta": "24 mm \u2013 35 mm"
+    },
+    "242": {
+        "domanda": "Per riconoscere il volto quale focale serve?",
+        "risposte": [
+            "35 \u2013 70 mm"
+        ],
+        "giusta": "35 \u2013 70 mm"
+    },
+    "243": {
+        "domanda": "Per l\u2019iride quale focale serve?",
+        "risposte": [
+            "70 mm \u2013 600 mm"
+        ],
+        "giusta": "70 mm \u2013 600 mm"
+    },
+    "244": {
+        "domanda": "Un sistema biometrico vede come un umano?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "245": {
+        "domanda": "Quanti megapixel pu\u00f2 avere lo zoom di una videocamera?",
+        "risposte": [
+            "1 \u2013 8 Megapixel"
+        ],
+        "giusta": "1 \u2013 8 Megapixel"
+    },
+    "246": {
+        "domanda": "Il ROI (Region of interest), pu\u00f2 migliorare:",
+        "risposte": [
+            "pi\u00f9 framerate, meno errori di processing, algoritmi pi\u00f9 veloci."
+        ],
+        "giusta": "pi\u00f9 framerate, meno errori di processing, algoritmi pi\u00f9 veloci."
+    },
+    "247": {
+        "domanda": "Come viene impostato il ROI?",
+        "risposte": [
+            "Si Parte dal sensore CMOS con alta risoluzione e si imposta il ROI in base alla inquadratura e alla funzione"
+        ],
+        "giusta": "Si Parte dal sensore CMOS con alta risoluzione e si imposta il ROI in base alla inquadratura e alla funzione"
+    },
+    "248": {
+        "domanda": "Cosa \u00e8 Intervallo dinamico (o range dinamico, dall'inglese dynamic range)?",
+        "risposte": [
+            "\u00e8 l'intervallo tra il valore massimo possibile e quello minimo di una grandezza variabile."
+        ],
+        "giusta": "\u00e8 l'intervallo tra il valore massimo possibile e quello minimo di una grandezza variabile."
+    },
+    "249": {
+        "domanda": "Quanti DB servono per vedere un volto in ogni condizione? /La fotocamera panasonic con il super dynamic range a quanti DB pu\u00f2 arrivare?",
+        "risposte": [
+            "144DB"
+        ],
+        "giusta": "144DB"
+    },
+    "250": {
+        "domanda": "L\u2019esposizione Multipla (multiple exposure) permette esposizione di sole e ombre?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "251": {
+        "domanda": "L\u2019esposizione Multipla (multiple exposure) permette illuminazione notturna",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "252": {
+        "domanda": "L\u2019esposizione Multipla (multiple exposure) permette di riprendere pi\u00f9 soggetti?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "253": {
+        "domanda": "L\u2019esposizione Multipla (multiple exposure) permette una Simultanea acquisizione di due immagini con diverso tempo di esposizione (exposure time)?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "254": {
+        "domanda": "A cosa serve l\u2019HDR (High Dynamic Range)?",
+        "risposte": [
+            "Serve nelle immagini, per Riprodurre Una gamma dinamica (di colore) maggiore Di quella disponibile dal Sensore nel singolo fotogramma"
+        ],
+        "giusta": "Serve nelle immagini, per Riprodurre Una gamma dinamica (di colore) maggiore Di quella disponibile dal Sensore nel singolo fotogramma"
+    },
+    "255": {
+        "domanda": "Quale \u00e8 lo scopo del HDR?",
+        "risposte": [
+            "Realizzare un range di illuminazione simile a quello dell\u2019occhio umano e Avere Dati Utili da Regioni ad alta e bassa Luminosit\u00e0 Nella immagine evitando Saturazione e rumore."
+        ],
+        "giusta": "Realizzare un range di illuminazione simile a quello dell\u2019occhio umano e Avere Dati Utili da Regioni ad alta e bassa Luminosit\u00e0 Nella immagine evitando Saturazione e rumore."
+    },
+    "256": {
+        "domanda": "Nella multi integration mode \u00e8 possibile riprendere oggetti in veloce movimento?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "257": {
+        "domanda": "Nella multi integration mode, l\u2019analisi della velocit\u00e0 di cosa tiene conto?",
+        "risposte": [
+            "Lunghezza nel tempo e distanza ricoperta dall\u2019oggetto in movimento"
+        ],
+        "giusta": "Lunghezza nel tempo e distanza ricoperta dall\u2019oggetto in movimento"
+    },
+    "258": {
+        "domanda": "Nella fotografia Macro, Il pacchetto di circuiti integrati, quanto \u00e8 pi\u00f9 alto, rispetto al circuitocircuito su cui \u00e8 montato?",
+        "risposte": [
+            "2,5 mm"
+        ],
+        "giusta": "2,5 mm"
+    },
+    "259": {
+        "domanda": "Nelle macro a F/32, ogni oggetto \u00e8 all\u2019interno del DOF?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "260": {
+        "domanda": "A F/32 le scritte sul pacchetto IC sono notevolmente pi\u00f9 morbide di quelle in f / 5?",
+        "risposte": [
+            "Vero, a causa della diffrazione."
+        ],
+        "giusta": "Vero, a causa della diffrazione."
+    },
+    "261": {
+        "domanda": "Le immagini di una macro sono utili al riconoscimento delle impronte biometriche?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "262": {
+        "domanda": "Il frame rate (frequenza fotogrammi )\u00e8 utile come mezzo anti frode?",
+        "risposte": [
+            "Vero, usa un photoplethysmograph remoto (rPPG)"
+        ],
+        "giusta": "Vero, usa un photoplethysmograph remoto (rPPG)"
+    },
+    "263": {
+        "domanda": "Le Video camere CCD soffrono del problema di jello effect o vibrazioni?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "264": {
+        "domanda": "l'uso di luce verde aumenta la nitidezza dei ridge?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "265": {
+        "domanda": "Cosa \u00e8 l\u2019inferenza statistica?",
+        "risposte": [
+            "\u00e8 il procedimento per cui si inducono le caratteristiche di una popolazione dall'osservazione di una parte di essa (detta 'campione') mediante un esperimento casuale (aleatorio)"
+        ],
+        "giusta": "\u00e8 il procedimento per cui si inducono le caratteristiche di una popolazione dall'osservazione di una parte di essa (detta 'campione') mediante un esperimento casuale (aleatorio)"
+    },
+    "266": {
+        "domanda": "L\u2019EER(eqal error rate), come viene considerato?",
+        "risposte": [
+            "Come inferenza statistica"
+        ],
+        "giusta": "Come inferenza statistica"
+    },
+    "267": {
+        "domanda": "In biometria per misurare dei risultati, \u00e8 meglio l\u2019inferenza statistica o il calcolo delle probabilit\u00e0?",
+        "risposte": [
+            "Inferenza statistica"
+        ],
+        "giusta": "Inferenza statistica"
+    },
+    "268": {
+        "domanda": "Se non ho dati, per calcolare degli istogrammi, posso usare dei volontari?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "269": {
+        "domanda": "Quando si verificano errori di FNM (false not match)?",
+        "risposte": [
+            "Quando un certo numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Non-Match (FNM)."
+        ],
+        "giusta": "Quando un certo numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T e quindi non saranno autorizzati dando luogo ad errori di False Non-Match (FNM)."
+    },
+    "270": {
+        "domanda": "Come viene calcolato il FNMR",
+        "risposte": [
+            "FNMR(T) = FNM(T) / Totale_Genuini"
+        ],
+        "giusta": "FNMR(T) = FNM(T) / Totale_Genuini"
+    },
+    "271": {
+        "domanda": "Quando si verificano errori di false match?",
+        "risposte": [
+            "Quando una parte degli impostori hanno valori di match sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Match"
+        ],
+        "giusta": "Quando una parte degli impostori hanno valori di match sopra la soglia T e quindi saranno autorizzati dando luogo ad errori di False Match"
+    },
+    "272": {
+        "domanda": "Come viene calcolato il FMR?",
+        "risposte": [
+            "FMR(T) = FM(T) / Totale_Impostori"
+        ],
+        "giusta": "FMR(T) = FM(T) / Totale_Impostori"
+    },
+    "273": {
+        "domanda": "FMR e FNMR possono essere considerate distribuzioni?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "274": {
+        "domanda": "il numero di numero di persone appartenenti al gruppo dei genuini sono sotto la soglia T (FNR) deve essere calcolato come un integrale della porzione di curva dei genuini fino alla soglia T?",
+        "risposte": [
+            "Parzialmente vero, Queste formule si applicano solo se si conoscono le distribuzioni pn e pm altrimenti le approssimo con gli istogrammi e i conteggi"
+        ],
+        "giusta": "Parzialmente vero, Queste formule si applicano solo se si conoscono le distribuzioni pn e pm altrimenti le approssimo con gli istogrammi e i conteggi"
+    },
+    "275": {
+        "domanda": "La curva DET e la curva ROC mostrano le stesse informazioni?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "276": {
+        "domanda": "Come \u00e8 definita la probabilit\u00e0 di errore?",
+        "risposte": [
+            "p= P(errore) = P( FM(T) ) + P( FNM(T) )"
+        ],
+        "giusta": "p= P(errore) = P( FM(T) ) + P( FNM(T) )"
+    },
+    "277": {
+        "domanda": "Come possono essere I classificatori di riconoscimento in biometria?",
+        "risposte": [
+            "Binari e multiclasse"
+        ],
+        "giusta": "Binari e multiclasse"
+    },
+    "278": {
+        "domanda": "Quale \u00e8 la differenza tra classificatore binario e multiclasse?",
+        "risposte": [
+            "Il binario se riconosce un oggetto risponde Yes/no, il multiclasse invece riconosce direttamente che oggetto \u00e8."
+        ],
+        "giusta": "Il binario se riconosce un oggetto risponde Yes/no, il multiclasse invece riconosce direttamente che oggetto \u00e8."
+    },
+    "279": {
+        "domanda": "Gli esperimenti / prove di bernoulli, i risultati delle prove sono indipendenti?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "280": {
+        "domanda": "Le distribuzioni di Bernoulli, sono utili per DESCRIVE ERRORE in AUTENTICAZIONE e identificazione?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "281": {
+        "domanda": "Nella binomiale di Bernoulli la distribuzione \u00e8 continua?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "282": {
+        "domanda": "Nella binomiale di Bernoulli se l\u2019errore \u00e8 basso, cosa avviene?",
+        "risposte": [
+            "la forma della linea della distribuzione cambia completamente e cade subito verso zero"
+        ],
+        "giusta": "la forma della linea della distribuzione cambia completamente e cade subito verso zero"
+    },
+    "283": {
+        "domanda": "Cosa dice la regola dei 3",
+        "risposte": [
+            "Il tasso di errore p per il quale si ha la probabilit\u00e0 di ZERO errori in N prove \u00e8 circa p\u22483/N, per un intervallo di confidenza del 95%."
+        ],
+        "giusta": "Il tasso di errore p per il quale si ha la probabilit\u00e0 di ZERO errori in N prove \u00e8 circa p\u22483/N, per un intervallo di confidenza del 95%."
+    },
+    "284": {
+        "domanda": "Quanto aumentano gli errori se uso un sistema di Verifica (FMR,FNMR) in modalit\u00e0 di Identificazione (FMRN,FNMRN)?",
+        "risposte": [
+            "I tassi di errore per i genuini non cambiano"
+        ],
+        "giusta": "I tassi di errore per i genuini non cambiano"
+    },
+    "285": {
+        "domanda": "Cosa dice la regola dei 30?",
+        "risposte": [
+            "Per essere sicuro con intervallo di conf. del 90% che il tasso di errore vero sia tra il \u00b130% del tasso di errore osservato ci devono essere almeno 30 errori."
+        ],
+        "giusta": "Per essere sicuro con intervallo di conf. del 90% che il tasso di errore vero sia tra il \u00b130% del tasso di errore osservato ci devono essere almeno 30 errori."
+    },
+    "286": {
+        "domanda": "\u00c8 attualmente possibile Realizzare un Sistema di patter recongnition Che riconosca la Presenza di un Volto a OGNI tipo di immagine?",
+        "risposte": [
+            "Falso"
+        ],
+        "giusta": "Falso"
+    },
+    "287": {
+        "domanda": "I Data Set Partitioning (partizioni di set di dati) a cosa servono?",
+        "risposte": [
+            "Valutare le prestazioni di un determinato modello rispetto a una serie di noti problemi standard."
+        ],
+        "giusta": "Valutare le prestazioni di un determinato modello rispetto a una serie di noti problemi standard."
+    },
+    "288": {
+        "domanda": "Di quali problemi soffre il Data set partitioning?",
+        "risposte": [
+            "Soffre di problemi di underfitting e overfitting"
+        ],
+        "giusta": "Soffre di problemi di underfitting e overfitting"
+    },
+    "289": {
+        "domanda": "Quando si verifica l'underfitting?",
+        "risposte": [
+            "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
+        ],
+        "giusta": "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
+    },
+    "290": {
+        "domanda": "Quando si verifica l'Overfitting ?",
+        "risposte": [
+            "L'adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un'elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
+        ],
+        "giusta": "L'adattamento eccessivo si verifica quando il modello \u00e8 troppo strettamente adattato ai dati offrendo un'elevata precisione ai casi noti ma comportandosi male con i dati invisibili"
+    },
+    "291": {
+        "domanda": "Cosa pu\u00f2 generare underfitting?",
+        "risposte": [
+            "Usando i dati interamente senza scremarli o la mancanza di dati."
+        ],
+        "giusta": "Usando i dati interamente senza scremarli o la mancanza di dati."
+    },
+    "292": {
+        "domanda": "Cosa genera overfitting?",
+        "risposte": [
+            "La continuamente regolamentazione dei pesi del modello per adattarsi meglio ai dati (arresto anticipato!), la mancanza di casi invisibili rende impossibile notare questa situazione, Apprendimento del rumore nei dati"
+        ],
+        "giusta": "La continuamente regolamentazione dei pesi del modello per adattarsi meglio ai dati (arresto anticipato!), la mancanza di casi invisibili rende impossibile notare questa situazione, Apprendimento del rumore nei dati"
+    },
+    "293": {
+        "domanda": "Cosa si pu\u00f2 fare per evitare problemi di underfitting e overfitting?",
+        "risposte": [
+            "controllare le prestazioni del modello, evitare l'adattamento eccessivo, avere una stima generalizzabile della qualit\u00e0 del modello ottenuto"
+        ],
+        "giusta": "controllare le prestazioni del modello, evitare l'adattamento eccessivo, avere una stima generalizzabile della qualit\u00e0 del modello ottenuto"
+    },
+    "294": {
+        "domanda": "Come avviene il K-FCV?",
+        "risposte": [
+            "1. In k-FCV, il set di dati originale \u00e8 suddiviso casualmente in k partizioni di uguale dimensione 2. Dalle partizioni k, uno viene conservato come dati di convalida per il test del modello e i restanti sottocampioni k - 1 vengono utilizzati per costruire il modello. 3. Dato che abbiamo k partizioni, il processo viene ripetuto k volte con ciascuno dei k sottocampioni usati esattamente una volta come dati di validazione"
+        ],
+        "giusta": "1. In k-FCV, il set di dati originale \u00e8 suddiviso casualmente in k partizioni di uguale dimensione 2. Dalle partizioni k, uno viene conservato come dati di convalida per il test del modello e i restanti sottocampioni k - 1 vengono utilizzati per costruire il modello. 3. Dato che abbiamo k partizioni, il processo viene ripetuto k volte con ciascuno dei k sottocampioni usati esattamente una volta come dati di validazione"
+    },
+    "295": {
+        "domanda": "Quali sono il numero di partizioni pi\u00f9 frequenti di K-FCV?",
+        "risposte": [
+            "5 e 10"
+        ],
+        "giusta": "5 e 10"
+    },
+    "296": {
+        "domanda": "Il K-FCV stratificato cosa fa?",
+        "risposte": [
+            "Posiziona un numero uguale di campioni di ogni classe su ciascuna partizione per mantenere le distribuzioni di classe uguali in tutte le partizioni"
+        ],
+        "giusta": "Posiziona un numero uguale di campioni di ogni classe su ciascuna partizione per mantenere le distribuzioni di classe uguali in tutte le partizioni"
+    },
+    "297": {
+        "domanda": "Come avviene il 5 x 2CV??",
+        "risposte": [
+            "\u2022 L'intero set di dati \u00e8 partizionato casualmente in due sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 5 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto"
+        ],
+        "giusta": "\u2022 L'intero set di dati \u00e8 partizionato casualmente in due sottoinsiemi A e B. \u2022 Il modello viene inizialmente creato utilizzando A e convalidato con B \u2022 Quindi il processo viene invertito con il modello costruito con B e testato con A \u2022 Questo processo di partizionamento viene ripetuto come desiderato (ad esempio 5 volte) \u2022 la misura delle prestazioni in ogni fase viene aggregata ogni volta che il processo viene ripetuto"
+    },
+    "298": {
+        "domanda": "Come Avviene il LOO?",
+        "risposte": [
+            "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un'istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo."
+        ],
+        "giusta": "\u00c8 un caso estremo di k-FCV, k \u00e8 uguale al numero di esempi nel set di dati. In ogni passaggio viene utilizzata solo un'istanza per testare il modello mentre il resto delle istanze viene utilizzato per apprenderlo."
+    },
+    "299": {
+        "domanda": "Come funziona il LOPO?",
+        "risposte": [
+            "L\u2019apprendimento di una rete neurale a molti livelli e/o neuroni \u00e8 tale da imparare a memoria soggetti NON dalla caratteristica biometrica che vogliamo impiegare Impara il colore della pelle, la presenza di barba ma non i tratti del volto. L\u2019accuratezza pu\u00f2 arrivare a EER=0 fittiziamente!"
+        ],
+        "giusta": "L\u2019apprendimento di una rete neurale a molti livelli e/o neuroni \u00e8 tale da imparare a memoria soggetti NON dalla caratteristica biometrica che vogliamo impiegare Impara il colore della pelle, la presenza di barba ma non i tratti del volto. L\u2019accuratezza pu\u00f2 arrivare a EER=0 fittiziamente!"
+    },
+    "300": {
+        "domanda": "Il sistema biometrico pu\u00f2 essere considerato come un classificatore?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "301": {
+        "domanda": "Il sistema biometrico come viene mappato?",
+        "risposte": [
+            "\u00abmappa\u00bb 1 vettore in ingresso in 1 intero in uscita"
+        ],
+        "giusta": "\u00abmappa\u00bb 1 vettore in ingresso in 1 intero in uscita"
+    },
+    "302": {
+        "domanda": "Le primitive biometriche come classificatori, per cosa possono essere usate?",
+        "risposte": [
+            "Face detection, Fingerprint indexing (indicizazione impronte, arch,loop, whorl),controllo qualit\u00e0, anti-frode"
+        ],
+        "giusta": "Face detection, Fingerprint indexing (indicizazione impronte, arch,loop, whorl),controllo qualit\u00e0, anti-frode"
+    },
+    "303": {
+        "domanda": "Quali sono le component principali del Machine learning?",
+        "risposte": [
+            "Rappresentazione, valutazione, ottimizazione."
+        ],
+        "giusta": "Rappresentazione, valutazione, ottimizazione."
+    },
+    "304": {
+        "domanda": "A cosa serve la valutazione nel Machine learning?",
+        "risposte": [
+            "A giudicare o preferire un modello piuttosto che un altro"
+        ],
+        "giusta": "A giudicare o preferire un modello piuttosto che un altro"
+    },
+    "305": {
+        "domanda": "A cosa serve l\u2019ottimizzazione nel Machine learning?",
+        "risposte": [
+            "A cercare lo spazio dei modelli rappresentati per ottenere valutazioni migliori"
+        ],
+        "giusta": "A cercare lo spazio dei modelli rappresentati per ottenere valutazioni migliori"
+    },
+    "306": {
+        "domanda": "Nell\u2019ottimizzazione del machine learning, come si riduce l\u2019errore di apprendimento?",
+        "risposte": [
+            "Andando a modificare i pesi del modello"
+        ],
+        "giusta": "Andando a modificare i pesi del modello"
+    },
+    "307": {
+        "domanda": "Quali tipi di apprendimento esistono?",
+        "risposte": [
+            "Esistono apprendimento di tipo deduttivo e induttivo"
+        ],
+        "giusta": "Esistono apprendimento di tipo deduttivo e induttivo"
+    },
+    "308": {
+        "domanda": "Quali sono i tipi di apprendimimento nel machine learning?",
+        "risposte": [
+            "Supervisionato, non super visionato, semi supervisionato, reinforcement"
+        ],
+        "giusta": "Supervisionato, non super visionato, semi supervisionato, reinforcement"
+    },
+    "309": {
+        "domanda": "Perch\u00e9 \u00e8 raro usare metodi di apprendimento deduttivi?",
+        "risposte": [
+            "E\u2019 pi\u00f9 probabile che ti diano dei dati (anche rumorosi e mancanti) che ti diano un modello del mondo efficace da applicare direttamente."
+        ],
+        "giusta": "E\u2019 pi\u00f9 probabile che ti diano dei dati (anche rumorosi e mancanti) che ti diano un modello del mondo efficace da applicare direttamente."
+    },
+    "310": {
+        "domanda": "Come funziona il reinforcement Learning?",
+        "risposte": [
+            "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per 'rafforzare' diversi tipi di conoscenza."
+        ],
+        "giusta": "I modelli di apprendimento per rinforzo usano dinamiche opposte come ricompense e punizioni per 'rafforzare' diversi tipi di conoscenza."
+    },
+    "311": {
+        "domanda": "Si pu\u00f2 creare un agente bot con il reinforcement learning?",
+        "risposte": [
+            "vero"
+        ],
+        "giusta": "vero"
+    },
+    "312": {
+        "domanda": "Il reinforcement learning pu\u00f2 essere utilizzato per le impronte?",
+        "risposte": [
+            "Vero, pu\u00f2 essere utilizzato per Trovare le minutiae (fine riga, biforcazioni) si pu\u00f2 eseguire percorrendo i ridge in toni di grigio"
+        ],
+        "giusta": "Vero, pu\u00f2 essere utilizzato per Trovare le minutiae (fine riga, biforcazioni) si pu\u00f2 eseguire percorrendo i ridge in toni di grigio"
+    },
+    "313": {
+        "domanda": "In cosa consiste il transfer learning?",
+        "risposte": [
+            "Consiste nel passaggio della conoscenza da un modello all\u2019altro"
+        ],
+        "giusta": "Consiste nel passaggio della conoscenza da un modello all\u2019altro"
+    },
+    "314": {
+        "domanda": "In ordine commerciale quale avuto pi\u00f9 successo nelle tipologie di apprendimento?",
+        "risposte": [
+            "Supervised, transfer learning, unsupervide, reinforcement learning."
+        ],
+        "giusta": "Supervised, transfer learning, unsupervide, reinforcement learning."
+    },
+    "315": {
+        "domanda": "Il transfer learning permette di apprendere da simulazioni?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "316": {
+        "domanda": "Il transfer leanring permette di classificare immagini?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "317": {
+        "domanda": "Il transfer learning permette di estrarre e parsificare contenuti?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "318": {
+        "domanda": "Quale \u00e8 il workflow (flusso di lavoro/ciclo di vita) del machine learning?",
+        "risposte": [
+            "Ottenere i dati, Prepararli e manipolarli, allenare il modello, testare i dati, ottimizzare"
+        ],
+        "giusta": "Ottenere i dati, Prepararli e manipolarli, allenare il modello, testare i dati, ottimizzare"
+    },
+    "319": {
+        "domanda": "Quale \u00e8 il tasso di errore di riconoscimento vocale delle parole attuale?",
+        "risposte": [
+            "5%"
+        ],
+        "giusta": "5%"
+    },
+    "320": {
+        "domanda": "Secondo Andrew Ng, quando avverr\u00e0 l'interazione naturale con un computer?",
+        "risposte": [
+            "Quando raggiungeremo tassi di errore <1%"
+        ],
+        "giusta": "Quando raggiungeremo tassi di errore <1%"
+    },
+    "321": {
+        "domanda": "\u00c8 utile Forzare il modello di ML a imparare ad usare le caratteristiche discriminatorie generali (biometriche) fra gli individui e non caratteristiche singole caso per caso?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "322": {
+        "domanda": "Quali sono le pi\u00f9 famose tecniche di computational intellogence (CI)?",
+        "risposte": [
+            "Reti neurali, evolutionary computing, fuzzy logic."
+        ],
+        "giusta": "Reti neurali, evolutionary computing, fuzzy logic."
+    },
+    "323": {
+        "domanda": "Come funziona un neurone nelle reti neurali?",
+        "risposte": [
+            "Il neurone calcola la somma ponderata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l'ingresso netto \u00e8 inferiore alla soglia, l'uscita del neurone \u00e8 -1. Ma se l'ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1."
+        ],
+        "giusta": "Il neurone calcola la somma ponderata dei segnali di input e confronta il risultato con un valore di soglia, \ud835\udf17. Se l'ingresso netto \u00e8 inferiore alla soglia, l'uscita del neurone \u00e8 -1. Ma se l'ingresso netto \u00e8 maggiore o uguale alla soglia, il neurone viene attivato e la sua uscita raggiunge un valore +1."
+    },
+    "324": {
+        "domanda": "Come funziona, la funzione in una rete neurale durante il suo allenamento?",
+        "risposte": [
+            "Durante l'allenamento, l'FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si avvicini alla risposta desiderata"
+        ],
+        "giusta": "Durante l'allenamento, l'FN \u00e8 costretto a regolare i suoi parametri in modo che la sua risposta ai dati di input si avvicini alla risposta desiderata"
+    },
+    "325": {
+        "domanda": "Quale \u00e8 la differenza tra machine learning e deep learning?",
+        "risposte": [
+            "Nel machine learning dobbiamo dare i dati gi\u00e0 estratti e raffinati al modello, nel deep learning i dati vengono estratti in automatico."
+        ],
+        "giusta": "Nel machine learning dobbiamo dare i dati gi\u00e0 estratti e raffinati al modello, nel deep learning i dati vengono estratti in automatico."
+    },
+    "326": {
+        "domanda": "Gli algoritmi genetici sono utili per ottimizzare i parametri di un sistema complesso?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "327": {
+        "domanda": "Quale \u00e8 la procedura degli algoritmi genetici?",
+        "risposte": [
+            "\u2022 Una serie iniziale di soluzioni casuali \u00e8 classificata in base alla capacit\u00e0 di risolvere il problema attuale \u2022 Le soluzioni migliori vengono quindi incrociate e mutate per formare un nuovo set \u2022 La classificazione e la formazione di nuove soluzioni continua fino a quando non viene trovata una soluzione sufficientemente valida"
+        ],
+        "giusta": "\u2022 Una serie iniziale di soluzioni casuali \u00e8 classificata in base alla capacit\u00e0 di risolvere il problema attuale \u2022 Le soluzioni migliori vengono quindi incrociate e mutate per formare un nuovo set \u2022 La classificazione e la formazione di nuove soluzioni continua fino a quando non viene trovata una soluzione sufficientemente valida"
+    },
+    "328": {
+        "domanda": "Come funziona la logica Fuzzy (sfocata)?",
+        "risposte": [
+            "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all'ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono precisi, solo il ragionamento \u00e8 approssimativo"
+        ],
+        "giusta": "\u2022 Basato sui principi della facolt\u00e0 di ragionamento approssimativo che gli umani usano di fronte all'ambiguit\u00e0 linguistica \u2022 Gli ingressi e le uscite di un sistema fuzzy sono precisi, solo il ragionamento \u00e8 approssimativo"
+    },
+    "329": {
+        "domanda": "Come vience calcolato L'output di un sistema fuzzy?",
+        "risposte": [
+            "viene calcolato usando: La tecnica MIN-MAX per combinare regole fuzzy e Il metodo centroide per la defuzzificazione."
+        ],
+        "giusta": "viene calcolato usando: La tecnica MIN-MAX per combinare regole fuzzy e Il metodo centroide per la defuzzificazione."
+    },
+    "330": {
+        "domanda": "Su cosa \u00e8 basato un sistema RBS (Sistemi basati su regole)?",
+        "risposte": [
+            "\u00c8 Basato sui principi della capacit\u00e0 di ragionamento logico degli esseri umani"
+        ],
+        "giusta": "\u00c8 Basato sui principi della capacit\u00e0 di ragionamento logico degli esseri umani"
+    },
+    "331": {
+        "domanda": "Quali sono le componenti di una RBS?",
+        "risposte": [
+            "Rulebase (regole di base), memoria di lavoro, interprete di regole"
+        ],
+        "giusta": "Rulebase (regole di base), memoria di lavoro, interprete di regole"
+    },
+    "332": {
+        "domanda": "Cosa \u00e8 un agente software?",
+        "risposte": [
+            "Un agente software \u00e8 un programma operativo a lungo termine la cui funzione pu\u00f2 essere descritta come esecuzione autonoma di compiti o tracciamento di obiettivi attraverso l'interazione con il suo ambiente."
+        ],
+        "giusta": "Un agente software \u00e8 un programma operativo a lungo termine la cui funzione pu\u00f2 essere descritta come esecuzione autonoma di compiti o tracciamento di obiettivi attraverso l'interazione con il suo ambiente."
+    },
+    "333": {
+        "domanda": "Da cosa \u00e8 composto un agente software?",
+        "risposte": [
+            "Memoria e la capacit\u00e0 di agire nel suo mondo basato su di esso, Sensori per percepire informazioni dal suo ambiente, Attuatori per influenzare il mondo esterno, La capacit\u00e0 di sondare le azioni."
+        ],
+        "giusta": "Memoria e la capacit\u00e0 di agire nel suo mondo basato su di esso, Sensori per percepire informazioni dal suo ambiente, Attuatori per influenzare il mondo esterno, La capacit\u00e0 di sondare le azioni."
+    },
+    "334": {
+        "domanda": "Gli Agenti intelligenti possono essere utilizzati per la gestione di complessit\u00e0 in biometria multimodale?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "335": {
+        "domanda": "Gli Agenti intelligenti possono essere utilizzati per il riconoscimento della pupilla?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "336": {
+        "domanda": "A cosa serve l\u2019inference engine (motore dell\u2019inferenza)?",
+        "risposte": [
+            "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l'inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
+        ],
+        "giusta": "\u00c8 Il cuore di un sistema neurale. Controlla il flusso di informazioni nel sistema e avvia l'inferenza sulla base di conoscenze neurali e assicura anche un ragionamento approssimativo."
+    },
+    "337": {
+        "domanda": "un sistema neuro-fuzzy, quali e quanti livelli ha?",
+        "risposte": [
+            "In generale, un sistema neuro-fuzzy ha livelli di input e output e tre livelli nascosti che rappresentano funzioni di appartenenza e regole fuzzy."
+        ],
+        "giusta": "In generale, un sistema neuro-fuzzy ha livelli di input e output e tre livelli nascosti che rappresentano funzioni di appartenenza e regole fuzzy."
+    },
+    "338": {
+        "domanda": "Nel KNN, quanto \u00e8 il tempo di allenamento?",
+        "risposte": [
+            "Pari a zero"
+        ],
+        "giusta": "Pari a zero"
+    },
+    "339": {
+        "domanda": "Quale \u00e8 la giusta definizione di K-nearest neighbors",
+        "risposte": [
+            "I vicini pi\u00f9 vicini a K di un record x sono punti dati che ha la k minima distanza da x"
+        ],
+        "giusta": "I vicini pi\u00f9 vicini a K di un record x sono punti dati che ha la k minima distanza da x"
+    },
+    "340": {
+        "domanda": "Di quali problemi di classificazione soffre il KNN?",
+        "risposte": [
+            "Problemi di ridimensionamento"
+        ],
+        "giusta": "Problemi di ridimensionamento"
+    },
+    "341": {
+        "domanda": "In KNN, la distanza metrica booleana di quanto sar\u00e0?",
+        "risposte": [
+            "In KNN, la distanza metrica booleana di quanto sar\u00e0?"
+        ],
+        "giusta": "In KNN, la distanza metrica booleana di quanto sar\u00e0?"
+    },
+    "342": {
+        "domanda": "In KNN con dimensione di set di dati ridotto, \u00e8 pi\u00f9 performante?",
+        "risposte": [
+            "Vero"
+        ],
+        "giusta": "Vero"
+    },
+    "343": {
+        "domanda": "Quali livelli sfruttano gli algoritmi di deep learning?",
+        "risposte": [
+            "usano vari livelli di unit\u00e0 non lineari a cascata dove ciascun livello successivo utilizza l'uscita del livello precedente come input per svolgere compiti di estrazione di caratteristiche trasformazione."
+        ],
+        "giusta": "usano vari livelli di unit\u00e0 non lineari a cascata dove ciascun livello successivo utilizza l'uscita del livello precedente come input per svolgere compiti di estrazione di caratteristiche trasformazione."
+    },
+    "344": {
+        "domanda": "Nel deep learning quali tipi di algoritmi possiamo avere?",
+        "risposte": [
+            "Sia supervisionato che non supervisionato."
+        ],
+        "giusta": "Sia supervisionato che non supervisionato."
+    },
+    "345": {
+        "domanda": "Nel deep learning i livelli sono espressi dal supervisore?",
+        "risposte": [
+            "Falso, sono creati automaticamente dal sistema"
+        ],
+        "giusta": "Falso, sono creati automaticamente dal sistema"
+    },
+    "346": {
+        "domanda": "Nel deep learning, da dove vengono derivate le caratteristiche di pi\u00f9 alto livello?",
+        "risposte": [
+            "Vengono derivate da quelle di pi\u00f9 basso livello"
+        ],
+        "giusta": "Vengono derivate da quelle di pi\u00f9 basso livello"
+    },
+    "347": {
+        "domanda": "Nel deep learning I livelli multipli corrispondono a differenti livelli di astrazione?",
+        "risposte": [
+            "Vero e formano una gerarchia di concetti."
+        ],
+        "giusta": "Vero e formano una gerarchia di concetti."
+    },
+    "totali": 347,
     "fatte": []
 }
