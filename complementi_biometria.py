@@ -40,7 +40,7 @@ def submit():
             json.dump(domande, file, indent=4)
         return "Giusto <a href='http://localhost:999'>Continua</a>"
     else:
-        return "Sbagliato <a href='http://localhost:999'>Continua</a>"
+        return f"{domanda} sbagliata <a href='http://localhost:999'>Continua</a>"
 
 @app.route('/reset', methods=['GET'])
 def reset():

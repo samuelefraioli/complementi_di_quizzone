@@ -1540,7 +1540,7 @@
         "risposte": [
             "Con 500 DPI per 8 bit."
         ],
-        "giusta": "Sono delle partizioni in cui viene diviso il database."
+        "giusta": "Con 500 DPI per 8 bit."
     },
     "165": {
         "domanda": "A livello I delle impronte digitale cosa si pu\u00f2 osservare?",
@@ -1657,9 +1657,10 @@
     "181": {
         "domanda": "Con 8 bit/ grigio quali tratti posso catturare?",
         "risposte": [
-            "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una minore risoluzione"
+            "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una minore risoluzione",
+            "Tratti pi\u00f9 macroscopici ma omogenei perch\u00e9 ho meno colori"
         ],
-        "giusta": "Sono delle partizioni in cui viene diviso il database."
+        "giusta": "Tratti pi\u00f9 macroscopici, perch\u00e9 si ha una minore risoluzione"
     },
     "182": {
         "domanda": "Quanti bit occorrrono per avere una vein pattern?",
@@ -1720,7 +1721,7 @@
     "190": {
         "domanda": "Cosa \u00e8 la skew?",
         "risposte": [
-            "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro.."
+            "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro."
         ],
         "giusta": "La \u201cstorta\u201d, l'immagine si piega in diagonale in una direzione o nell'altra mentre la fotocamera o il soggetto si spostano da un lato all'altro."
     },
@@ -1939,14 +1940,14 @@
         "risposte": [
             "Escursione focale, Luminosit\u00e0 dell\u2019obbiettivo, fattore di ingrandimento."
         ],
-        "giusta": "Sono delle partizioni in cui viene diviso il database."
+        "giusta": "Escursione focale, Luminosit\u00e0 dell\u2019obbiettivo, fattore di ingrandimento."
     },
     "222": {
         "domanda": "Quali sono i parametri di misurazione dell\u2019escursione focale nello zoom?",
         "risposte": [
-            "10- 80 mm 72) Quali sono"
+            "10-80 mm"
         ],
-        "giusta": "10- 80 mm 72) Quali sono"
+        "giusta": "10-80 mm"
     },
     "223": {
         "domanda": "Quali sono i parametri di luminosit\u00e0 dell\u2019obbiettivo nello zoom?",
@@ -2413,7 +2414,7 @@
     "289": {
         "domanda": "Quando si verifica l'underfitting?",
         "risposte": [
-            "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
+            "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
         ],
         "giusta": "Il underfitting si verifica quando il modello \u00e8 scarsamente adattato ai dati, a causa di errori elevati sia nell'allenamento che nei dati di test (non visti)"
     },
@@ -2462,7 +2463,8 @@
     "296": {
         "domanda": "Il K-FCV stratificato cosa fa?",
         "risposte": [
-            "Posiziona un numero uguale di campioni di ogni classe su ciascuna partizione per mantenere le distribuzioni di classe uguali in tutte le partizioni"
+            "Posiziona un numero uguale di campioni di ogni classe su ciascuna partizione per mantenere le distribuzioni di classe uguali in tutte le partizioni",
+            "Posiziona un numero uguale di campioni di ogni classe su ciascuna partizione per mantenere le distribuzioni di classe diverse in tutte le partizioni"
         ],
         "giusta": "Posiziona un numero uguale di campioni di ogni classe su ciascuna partizione per mantenere le distribuzioni di classe uguali in tutte le partizioni"
     },
@@ -2824,5 +2826,57 @@
         "giusta": "Vero e formano una gerarchia di concetti."
     },
     "totali": 347,
-    "fatte": []
+    "fatte": [
+        54,
+        306,
+        233,
+        305,
+        285,
+        232,
+        128,
+        79,
+        227,
+        261,
+        22,
+        323,
+        149,
+        238,
+        90,
+        329,
+        207,
+        95,
+        3,
+        316,
+        310,
+        187,
+        340,
+        132,
+        183,
+        34,
+        55,
+        321,
+        110,
+        6,
+        298,
+        194,
+        258,
+        133,
+        119,
+        275,
+        344,
+        28,
+        134,
+        153,
+        70,
+        122,
+        242,
+        286,
+        297,
+        188,
+        71,
+        91,
+        130,
+        166,
+        145
+    ]
 }
