@@ -1510,13 +1510,15 @@
     "160": {
         "domanda": "Cosa sono i bins?",
         "risposte": [
-            "Sono delle partizioni in cui viene diviso il database."
+            "Sono delle partizioni in cui viene diviso il database.",
+            "Sono delle partizioni in cui viene ingrandito il database"
         ],
         "giusta": "Sono delle partizioni in cui viene diviso il database."
     },
     "161": {
         "domanda": "Un sistema basato su 2 impronte con arch e loop, quanti bins avremo?",
         "risposte": [
+            "4 che sono: BIN1: individui con SX arch SX loop, BIN2: individui con DX arch DX loop, BIN3: individui con SX loop SX arch, BIN4: individui con DX loop DX loop",
             "4 che sono: BIN1: individui con DX arch SX loop, BIN2: individui con DX arch SX loop, BIN3: individui con DX loop SX arch, BIN4: individui con DX loop SX loop"
         ],
         "giusta": "4 che sono: BIN1: individui con DX arch SX loop, BIN2: individui con DX arch SX loop, BIN3: individui con DX loop SX arch, BIN4: individui con DX loop SX loop"
@@ -1524,28 +1526,32 @@
     "162": {
         "domanda": "Cosa \u00e8 il binning error?",
         "risposte": [
-            "Quando vengono cercati i tratti biometrici nel bin sbagliato, e cos\u00ec non vengono trovati."
+            "Quando vengono cercati i tratti biometrici nel bin sbagliato, e cos\u00ec non vengono trovati.",
+            "Quando vengono registrati male i cartellini"
         ],
         "giusta": "Quando vengono cercati i tratti biometrici nel bin sbagliato, e cos\u00ec non vengono trovati."
     },
     "163": {
         "domanda": "Avere N bin Porta ad avere un Pentration rate di N/100?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero"
         ],
         "giusta": "Falso"
     },
     "164": {
         "domanda": "Come digitalizza le foto l\u2019FBI?",
         "risposte": [
-            "Con 500 DPI per 8 bit."
+            "Con 500 DPI per 8 bit.",
+            "Con 100 DPI"
         ],
         "giusta": "Con 500 DPI per 8 bit."
     },
     "165": {
         "domanda": "A livello I delle impronte digitale cosa si pu\u00f2 osservare?",
         "risposte": [
-            "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine."
+            "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine.",
+            "Il flusso delle linee(arch,loop,whorl) e la forma impronta"
         ],
         "giusta": "Il flusso delle linee(arch,loop,whorl),punti singolari (core,delta),forma impronta, orientamento,frequenza delle righe dell\u2019immagine."
     },
@@ -1587,41 +1593,48 @@
     "171": {
         "domanda": "Di quale livello \u00e8 considerata la ridge counting?",
         "risposte": [
-            "Livello I"
+            "Livello I",
+            "Livello II",
+            "Livello III"
         ],
         "giusta": "Livello I"
     },
     "172": {
         "domanda": "Cosa \u00e8 la ridge frequency?",
         "risposte": [
-            "L\u2019inverso della distanza media tra 2 picchi consecutivi"
+            "L\u2019inverso della distanza media tra 2 picchi consecutivi",
+            "La distanza media tra 2 picchi consecutivi"
         ],
         "giusta": "L\u2019inverso della distanza media tra 2 picchi consecutivi"
     },
     "173": {
         "domanda": "Quanti DPI servono per acquisire le impronte digitali con AFIS",
         "risposte": [
-            "500 DPI"
+            "500 DPI",
+            "1000 DPI"
         ],
         "giusta": "500 DPI"
     },
     "174": {
         "domanda": "Quale \u00e8 la migliore luce per acquisire l\u2019iride?",
         "risposte": [
-            "Luce IR"
+            "Luce IR",
+            "Luce not IR"
         ],
         "giusta": "Luce IR"
     },
     "175": {
         "domanda": "Per catturare i dettagli dell\u2019iride, con quanti pixel il sistema deve poterlo acquisire?",
         "risposte": [
-            "Almeno 70 pixel"
+            "Almeno 70 pixel",
+            "Almeno 35 pixel"
         ],
         "giusta": "Almeno 70 pixel"
     },
     "176": {
         "domanda": "Quali sensori si usano per acquisire l\u2019iride?",
         "risposte": [
+            "CDC monocromatici",
             "CCD monocromatici"
         ],
         "giusta": "CCD monocromatici"
@@ -1629,9 +1642,10 @@
     "177": {
         "domanda": "Quale \u00e8 la banda di illuminazione migliore per l\u2019iride?",
         "risposte": [
-            "700- 900 nm"
+            "70-80mm",
+            "700-900 mm"
         ],
-        "giusta": "700- 900 nm"
+        "giusta": "700-900 mm"
     },
     "178": {
         "domanda": "Che tipo di telecamere si usano per l\u2019iride?",
@@ -1650,7 +1664,8 @@
     "180": {
         "domanda": "Gli algoritmi di enhancement (aumento), esaltano le differenze di rumore?",
         "risposte": [
-            "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)"
+            "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)",
+            "Falso"
         ],
         "giusta": "Vero, aumentano il rumore sull\u2019immagine (di solito si passa da 8 bit a 10 bit)"
     },
@@ -1742,7 +1757,8 @@
     "193": {
         "domanda": "L\u2019illuminazione fluorescente causa problemi di temporal aliasing?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -1784,7 +1800,8 @@
     "199": {
         "domanda": "Attraverso il filtro polarizzatore in una immagine \u00e8 possibile vedere il riflesso?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -1805,28 +1822,32 @@
     "202": {
         "domanda": "I canali RGB possono essere usati come filtri?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "203": {
         "domanda": "Rimuovendo il filtro no IR si ottiene un sensore utile in vicino infrarosso?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "204": {
         "domanda": "Il filtro cut-off scambiatore IR con attacco obiettivo integrato consente il vero funzionamento diurno / notturno (TDN) con i chipset DPS Pixim?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "205": {
         "domanda": "Sensore di imaging multispettrale ha funzionalit\u00e0 di sicurezza avanzate?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -1910,21 +1931,24 @@
     "217": {
         "domanda": "Lo zoom \u00e8 utile in tutte le applicazioni di sicurezza?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "218": {
         "domanda": "Nello zoom ottico la lunghezza focale pu\u00f2 variare?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "219": {
         "domanda": "Lo zoom ottico ingrandisce?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -1973,21 +1997,24 @@
     "226": {
         "domanda": "Le lenti liquide possono essere utilizzate nella video sorveglianza?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "227": {
         "domanda": "Le lenti liquide possono essere utilizzate nella biometria senza contatto?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "228": {
         "domanda": "Un\u2019obbiettivo per una fotocamera pu\u00f2 contenere fino a 15 elementi?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2008,14 +2035,16 @@
     "231": {
         "domanda": "Nel galaxy S9 della samsung, Una lente della fotocamera consente allo scanner dell'iride di riconoscere facilmente gli utenti con gli occhiali o quando si trovano in un ambiente troppo buio o troppo scuro?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "232": {
         "domanda": "L\u2019obbiettivo di un drone pu\u00f2 avere lenti asferiche?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2029,7 +2058,8 @@
     "234": {
         "domanda": "Se due fotocamere di dimensioni e lunghezze focali diverse hanno lo stesso angolo di visione e la stessa area di apertura, raccolgono la stessa quantit\u00e0 di luce dalla scena",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2064,6 +2094,7 @@
     "239": {
         "domanda": "\u00c8 possibile compensare la distanza con focale ma senza deformazioni?",
         "risposte": [
+            "Vero",
             "Falso"
         ],
         "giusta": "Falso"
@@ -2099,7 +2130,8 @@
     "244": {
         "domanda": "Un sistema biometrico vede come un umano?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero"
         ],
         "giusta": "Falso"
     },
@@ -2141,28 +2173,32 @@
     "250": {
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette esposizione di sole e ombre?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "251": {
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette illuminazione notturna",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "252": {
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette di riprendere pi\u00f9 soggetti?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "253": {
         "domanda": "L\u2019esposizione Multipla (multiple exposure) permette una Simultanea acquisizione di due immagini con diverso tempo di esposizione (exposure time)?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2183,7 +2219,8 @@
     "256": {
         "domanda": "Nella multi integration mode \u00e8 possibile riprendere oggetti in veloce movimento?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2204,7 +2241,8 @@
     "259": {
         "domanda": "Nelle macro a F/32, ogni oggetto \u00e8 all\u2019interno del DOF?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2218,7 +2256,8 @@
     "261": {
         "domanda": "Le immagini di una macro sono utili al riconoscimento delle impronte biometriche?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero"
         ],
         "giusta": "Falso"
     },
@@ -2232,14 +2271,16 @@
     "263": {
         "domanda": "Le Video camere CCD soffrono del problema di jello effect o vibrazioni?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero"
         ],
         "giusta": "Falso"
     },
     "264": {
         "domanda": "l'uso di luce verde aumenta la nitidezza dei ridge?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2267,7 +2308,8 @@
     "268": {
         "domanda": "Se non ho dati, per calcolare degli istogrammi, posso usare dei volontari?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2302,7 +2344,8 @@
     "273": {
         "domanda": "FMR e FNMR possono essere considerate distribuzioni?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2316,7 +2359,8 @@
     "275": {
         "domanda": "La curva DET e la curva ROC mostrano le stesse informazioni?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2344,21 +2388,24 @@
     "279": {
         "domanda": "Gli esperimenti / prove di bernoulli, i risultati delle prove sono indipendenti?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "280": {
         "domanda": "Le distribuzioni di Bernoulli, sono utili per DESCRIVE ERRORE in AUTENTICAZIONE e identificazione?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "281": {
         "domanda": "Nella binomiale di Bernoulli la distribuzione \u00e8 continua?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero"
         ],
         "giusta": "Falso"
     },
@@ -2393,7 +2440,8 @@
     "286": {
         "domanda": "\u00c8 attualmente possibile Realizzare un Sistema di patter recongnition Che riconosca la Presenza di un Volto a OGNI tipo di immagine?",
         "risposte": [
-            "Falso"
+            "Falso",
+            "Vero"
         ],
         "giusta": "Falso"
     },
@@ -2492,7 +2540,8 @@
     "300": {
         "domanda": "Il sistema biometrico pu\u00f2 essere considerato come un classificatore?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2569,9 +2618,10 @@
     "311": {
         "domanda": "Si pu\u00f2 creare un agente bot con il reinforcement learning?",
         "risposte": [
-            "vero"
+            "Vero",
+            "Falso"
         ],
-        "giusta": "vero"
+        "giusta": "Vero"
     },
     "312": {
         "domanda": "Il reinforcement learning pu\u00f2 essere utilizzato per le impronte?",
@@ -2597,21 +2647,24 @@
     "315": {
         "domanda": "Il transfer learning permette di apprendere da simulazioni?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "316": {
         "domanda": "Il transfer leanring permette di classificare immagini?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "317": {
         "domanda": "Il transfer learning permette di estrarre e parsificare contenuti?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2639,7 +2692,8 @@
     "321": {
         "domanda": "\u00c8 utile Forzare il modello di ML a imparare ad usare le caratteristiche discriminatorie generali (biometriche) fra gli individui e non caratteristiche singole caso per caso?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2674,7 +2728,8 @@
     "326": {
         "domanda": "Gli algoritmi genetici sono utili per ottimizzare i parametri di un sistema complesso?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2730,14 +2785,16 @@
     "334": {
         "domanda": "Gli Agenti intelligenti possono essere utilizzati per la gestione di complessit\u00e0 in biometria multimodale?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
     "335": {
         "domanda": "Gli Agenti intelligenti possono essere utilizzati per il riconoscimento della pupilla?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2758,7 +2815,8 @@
     "338": {
         "domanda": "Nel KNN, quanto \u00e8 il tempo di allenamento?",
         "risposte": [
-            "Pari a zero"
+            "Pari a zero",
+            "Compreso tra 0 e 1"
         ],
         "giusta": "Pari a zero"
     },
@@ -2786,7 +2844,8 @@
     "342": {
         "domanda": "In KNN con dimensione di set di dati ridotto, \u00e8 pi\u00f9 performante?",
         "risposte": [
-            "Vero"
+            "Vero",
+            "Falso"
         ],
         "giusta": "Vero"
     },
@@ -2827,56 +2886,87 @@
     },
     "totali": 347,
     "fatte": [
-        54,
-        306,
-        233,
-        305,
-        285,
-        232,
-        128,
-        79,
-        227,
-        261,
-        22,
-        323,
-        149,
-        238,
-        90,
-        329,
-        207,
-        95,
-        3,
-        316,
-        310,
-        187,
-        340,
-        132,
-        183,
-        34,
-        55,
-        321,
-        110,
-        6,
-        298,
-        194,
-        258,
-        133,
+        41,
+        204,
         119,
+        213,
+        141,
+        290,
+        246,
+        182,
+        192,
+        256,
+        168,
+        73,
+        53,
+        176,
+        82,
+        328,
+        131,
+        116,
+        7,
+        89,
+        196,
+        277,
+        6,
+        255,
+        220,
+        335,
+        12,
+        338,
+        114,
+        210,
+        86,
+        69,
+        217,
+        311,
         275,
-        344,
-        28,
-        134,
-        153,
-        70,
-        122,
-        242,
-        286,
-        297,
-        188,
         71,
-        91,
-        130,
-        166,
-        145
+        31,
+        285,
+        231,
+        94,
+        212,
+        296,
+        299,
+        95,
+        102,
+        135,
+        155,
+        241,
+        133,
+        22,
+        283,
+        219,
+        306,
+        218,
+        266,
+        235,
+        265,
+        123,
+        257,
+        55,
+        85,
+        271,
+        149,
+        201,
+        304,
+        264,
+        300,
+        346,
+        179,
+        13,
+        251,
+        138,
+        315,
+        198,
+        10,
+        39,
+        34,
+        278,
+        152,
+        25,
+        269,
+        162
     ]
 }
